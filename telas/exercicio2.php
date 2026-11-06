@@ -14,8 +14,29 @@
     <title>Leia um número e exiba o dobro!</title>
 </head>
 <body>
-    <h1> Informe um valor para ser dobrado </h1>
+    <h1> Informe um valor para ser dobrado!</h1>
     <form method = "POST"> 
-        
+    <label>Informe o número: </label> <!-- Pega o primeiro numero!-->
+        <input type="number" id= "primeiroNumero" name="primeiroNumero"/>
+        <br><br>
+        <button type="submit">Dobrar<!-- Faz o pedido pro banco!-->    
+            <?php
+            if(isset($_POST['primeiroNumero'])) { //evita que de o erro quando entra no campo
+            $num1 = $_POST ['primeiroNumero'];
+          
+
+            $resultado = $funcoes->dobro($num1); //utilizando o método da classe funcões
+            }
+        ?>
+         </button> 
+        </form>
+        <?php
+            if (isset($_POST['primeiroNumero'])) {
+
+            echo "O dobro do numero é: ".$resultado;
+        }else{
+            echo "Preencha os campos !";
+        }
+            ?>    
 </body>
 </html>

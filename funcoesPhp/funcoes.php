@@ -5,7 +5,9 @@
         private float $num1; //variaveis privadas
         private float $num2;
         private float $resultado;
-        private float $dobro;
+        private float $num3;
+        private float $desconto;
+       
 
         //criando um construtor = Instancia as variaveis -> Ceia as variaveis na memoria do servidor
         public function __construct (){
@@ -72,17 +74,46 @@
         }
         }//fim de bhaskara
 
-        public function dobro (float $num1, float $num2, float $dobro){
-            if ($num1 > $num2){
-                $dobro = $num1
-               
-            }
+        public function dobro (float $num1){
+          $this->resultado = $num1 * 2;
+          return $this->resultado;
 
-
-        }
+        }//fim do metodo
         
-        
+        public function mediaDeTresNumeros(float $num1, float $num2, float $num3){
+            $this->resultado = ($num1 + $num2 + $num3) / 3;
+            return $this->resultado;
 
+        }//fim do metodo
+
+        public function raizQuadrada(float $num1){
+            $this->resultado = (sqrt($num1));
+            return $this->resultado;
+        }//fim do metodo
+
+        public function metroParaCentimetro(float $num1){
+            $this->resultado = $num1 * 100;
+            return $this->resultado;
+        }//fim do metodo
+
+        public function calculoCirculoComRaio (float $raio){
+            $this->resultado = 3.14 * pow($raio,2);
+            return $this->resultado;
+        }//fim do metodo
+
+        public function celciusParaFahrenheit(float $num1){
+            $this->resultado = ($num1 * 1.8) + 32;
+            
+            return $this->resultado;
+        }//fim do metodo
+
+        public function descontoProduto (float $num1){ //quando vai ser criado a variavel dentro nao precisa ser mencionada
+        $desconto = $num1 * 0.90;
+        return $desconto;
+        }//fim do metodo
+
+        public function idadeEmMeses )
+        
 
     }//fim da classe
     

@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somar</title>
+    <title>Bhaskara</title>
 </head>
 <body>
     <h1> Informe os valores de bhaskara (A, B e C)</h1>
