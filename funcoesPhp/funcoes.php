@@ -4,7 +4,7 @@
     Class Funcoes{
         private float $num1; //variaveis privadas
         private float $num2;
-        private float $resultado;
+        private mixed $resultado;
         private float $num3;
         private float $desconto;
        
@@ -86,6 +86,7 @@
 
         }//fim do metodo
 
+        
         public function raizQuadrada(float $num1){
             $this->resultado = (sqrt($num1));
             return $this->resultado;
@@ -112,12 +113,32 @@
         return $desconto;
         }//fim do metodo
 
-        public function idadeEmMeses )
+        public function idadeParaMeses (float $num1){
+            $this->resultado = $num1 * 12;
+            return $this->resultado;
+        }//fim do metodo
         
+        public function numeroParImpar(float $num1){
 
-    }//fim da classe
+            $this->resultado = $num1 % 2 == 0 ? "O número é par" : "O número é ímpar";
+            return $this->resultado;
+            
+        }//fim do metodo
+
+        public function areaTriangulo (float $num1, float $num2){
+            $this->resultado = ($num1 * $num2) / 2;
+            return $this->resultado;
+        }//fim do metodo
+
+        public function volumeCaixaRetangular (float $num1, float $num2, float $num3){
+            $this->resultado = $num1 * $num2 * $num3;
+            return $this->resultado;
+        }//fim do metodo
+
+        public function calcularNumeroQuadradoCuba 
+
     
 
-
-
+    
+    }//fim da classe
 ?>

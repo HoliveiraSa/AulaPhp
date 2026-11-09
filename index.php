@@ -27,6 +27,8 @@
         <button><a href ="telas/exercicio6.php">6. Leia um valor em metros e converta para milímetros.</a></button><br>
         <button><a href ="telas/exercicio7.php">7. Calcule a área de um círculo com base no raio.</a></button><br>
         <button><a href ="telas/exercicio8.php">8. Leia um número e exiba a tabuada de 1 a 10.</a></button><br>
-
+        <button><a href ="telas/exercicio9.php">9. Leia a idade de uma pessoa em anos e exiba em meses.</a></button><br> 
+        <button><a href ="telas/exercicio10.php">10. Leia um número e exiba se ele é par ou ímpar (sem usar if).</a></button><br>
+        <button><a href ="telas/exercicio11.php">11. Leia um número e exiba se ele é positivo, negativo ou zero (sem usar if).</a></button><br>
 </body>
 </html>
