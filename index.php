@@ -17,7 +17,12 @@
         <button><a href ="telas/multiplicar.php">Multiplicar</a></button><br>
         <button><a href ="telas/dividir.php">Dividir</a></button><br>
         <button><a href ="telas/bhaskara.php">Bhaskara</a></button><br>
-
+        <button><a href ="telas/tabuada.php">Tabuada</a></button><br>
+        <button><a href ="telas/binario.php">Decimal para Binário</a></button><br>
+        <button><a href ="telas/hexadecimal.php">Decimal para Hexadecimal</a></button><br>
+        
+        
+        
         <h2>EXERCICIOS INICIAIS</h2>
         <button><a href ="telas/exercicio1.php">1. Leia dois números e exiba a soma.</a></button><br>
         <button><a href ="telas/exercicio2.php">2. Leia um número e exiba o dobro.</a></button><br>
@@ -30,5 +35,12 @@
         <button><a href ="telas/exercicio9.php">9. Leia a idade de uma pessoa em anos e exiba em meses.</a></button><br> 
         <button><a href ="telas/exercicio10.php">10. Leia um número e exiba se ele é par ou ímpar (sem usar if).</a></button><br>
         <button><a href ="telas/exercicio11.php">11. Leia um número e exiba se ele é positivo, negativo ou zero (sem usar if).</a></button><br>
+        <button><a href ="telas/exercicio12.php">12. Calcule o volume de uma caixa retangular.</a></button><br>
+        <button><a href ="telas/exercicio13.php">13. Receba um número e calcule seu quadrado e cubo.</a></button><br>
+        <button><a href ="telas/exercicio14.php">14. Leia o preço de um produto e exiba o valor com 18% de imposto.</a></button><br>
+        <button><a href ="telas/exercicio15.php">15. Leia a distância e o tempo para calcular a velocidade média.</a></button><br>
+       
+
+
 </body>
 </html>
