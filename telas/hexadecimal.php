@@ -10,18 +10,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binario</title>
+    <title>Hexadecimal</title>
 </head>
 <body>
-    <h1>Binario</h1>
+    <h1>Hexadecimal</h1>
     <form method="post">
         <label for="numero">Informe o número em Decimal:</label>
         <input type="number" id="numero" name="numero" required>
-        <button type="submit">Mostrar em Bínario</button>
+        <button type="submit">Mostrar em Hexadecimal</button>
         <?php
             if(isset($_POST['numero'])) {
                 $num = $_POST['numero'];
-                $resultado = $funcoes->decimalBinario($num); //usando o metodo
+                $resultado = $funcoes->decimalHexadecimal($num); //usando o metodo
             }
 
         ?>
